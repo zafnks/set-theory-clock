@@ -26,5 +26,13 @@ The use of JBehave in this instance is to provide you with our definition of don
 
 Please ensure that you are familiar with our values in the instructions project.  They are important to us!
 
+## 评分标准
+* All Test Cases should be passed successfully.
+* Well comprehension is a mandatory, miss or misunderstanding instruction cloud be considered failure.
+* A good coding design and habit are required. ex: to comment properly, using design patten in the right way, etc.
+* To commit your answers before the deadline.
+
+
 ## 其他
 Please fill up the file [FEEDBACK.md](FEEDBACK.md)
+
