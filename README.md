@@ -1,38 +1,26 @@
 ## 欢迎参加平安普惠面试-时钟
 
-Set Theory Clock is a rather strange way to show the time. On the top of the clock there is a yellow lamp that
-blinks on/off every two seconds. The time is calculated by adding rectangular lamps.
- 
-The top two rows of lamps are red. These indicate the hours of a day. In the top row there are 4 red lamps. Every lamp
-represents 5 hours. In the lower row of red lamps every lamp represents 1 hour. So if two lamps of the first row and
-three of the second row are switched on that indicates 5+5+3=13h or 1 pm.
- 
-The two rows of lamps at the bottom count the minutes. The first of these rows has 11 lamps, the second 4. In the
-first row every lamp represents 5 minutes. In this first row the 3rd, 6th and 9th lamp are red and indicate the first
-quarter, half and last quarter of an hour. The other lamps are yellow. In the last row with 4 lamps every lamp
-represents 1 minute.
+Set Theory Clock是一个通过亮灯数量来表示时间的时钟，如图所示：![HERE](images/settheoryclock.gif)
+
+在钟的顶端有一盏每两秒钟闪烁一次的黄灯。
+前两排的灯为红色，每排4盏，共8盏，表示小时，其中第一排每盏灯代表5小时；第二排每盏灯代表1小时。（例如：第一排的两个灯和第二排的三个灯点亮，对应时间为5+5+3=13h或1 pm）
+底部两排的灯表示分钟，第一排有11盏灯，每盏灯代表5分钟，其中第3、第6和第9盏的灯是红色，表示15分、30分和45分，其他的灯为黄色；最后一排有4盏灯，每盏灯代表1分钟。
 
 ## 简述
 
-We have created a number of acceptance tests for Set Theory Clock and your challenge is to get them passing. Additionally, please make sure your solution is accompanied by comments in any form that describe a step-by-step refactorings, so we can understand the way you were thinking.
-
-For the illustration please refers to the image ![HERE](images/settheoryclock.gif)
+您需要让Set Theory Clock的测试用例通过。另外，请您在代码上标注相关的注释，以便我们理解您的思路。
 
 ## 提示
-If you are new to Gradle, it may be worth spending 10 minutes reading a high level summary.  We are using the Gradle
-Wrapper so `gradlew` from the command line should download everything you need.  Most modern IDEs support Gradle projects.
 
-The use of JBehave in this instance is to provide you with our definition of done for the task.
-
-Please ensure that you are familiar with our values in the instructions project.  They are important to us!
+如果您没有使用过Gradle，您可能需要花点时间阅读一篇Gradle相关的摘要。另外，案例中我们使用了Gradle Wrapper，因此从命令行中的gradlew会下载您所需的所有内容。
 
 ## 评分标准
-* All Test Cases should be passed successfully.
-* Well comprehension is a mandatory, miss or misunderstanding instruction cloud be considered failure.
-* A good coding design and habit are required. ex: to comment properly, using design patten in the right way, etc.
-* To commit your answers before the deadline.
+* 所有测试用例需无错执行。
+* 需正确理解题目要求。
+* 良好的编码习惯及面向对象的设计思想。
+* 请在截止日期前提交您的答案。
+
 
 
 ## 其他
-Please fill up the file [FEEDBACK.md](FEEDBACK.md)
-
+请填写文件 [FEEDBACK.md](FEEDBACK.md)
