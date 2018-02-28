@@ -47,7 +47,9 @@ public final class ClasspathStoryFinder {
         try {
             Enumeration<URL> roots = ClasspathStoryFinder.class.getClassLoader().getResources("") ;
             while(roots.hasMoreElements()) {
-                ret.add(new File(roots.nextElement().getFile())) ;
+            	// edit by 刘双源 20170227
+            	// 路径有中文或特殊字符时会报错，增加URL DECODE
+                ret.add(new File(java.net.URLDecoder.decode(roots.nextElement().getFile(), "UTF-8"))) ;
             }
         } catch(IOException ioe) {
             LOG.error("Failed to derive classpath from Class Loader", ioe) ;
