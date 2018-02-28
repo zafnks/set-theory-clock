@@ -16,10 +16,19 @@ public class Clock {
 
 	private final static String CLOCK_VALUE_ERROE = "Illegal Clock Value";
 
+	/**
+	 * 时钟组件实现类包路径
+	 */
 	private final static String CLOCK_PART_PACKAGE = "com.paic.arch.interviews.clock.parts";
 
+	/**
+	 * 组件类名称，用半角分号分隔
+	 */
 	private final static String CLOCK_PART_CLASS = "SecondOne;HourFive;HourOne;MinuteFive;MinuteOne";
 
+	/**
+	 * 时钟组件列表
+	 */
 	private List<Part> clockParts = new ArrayList<Part>(4);
 
 	/**

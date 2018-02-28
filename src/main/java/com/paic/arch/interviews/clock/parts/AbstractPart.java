@@ -20,6 +20,9 @@ public abstract class AbstractPart implements Part{
 	 */
 	protected int brightNumber;
 
+	/**
+	 * 设置时间值
+	 */
 	@Override
 	public void setClockValue(String value) throws IllegalClockException {
 		getTimeNumber(value);
